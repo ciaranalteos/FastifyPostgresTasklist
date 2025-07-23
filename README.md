@@ -25,11 +25,6 @@
 - **Route Parameter**:
   - `id`: Task ID (integer)
 
-**Example**:  
-```
-PATCH /3
-```
-
 ---
 
 ## DELETE `/:id`
@@ -37,8 +32,3 @@ PATCH /3
 - **Purpose**: Delete a task by ID  
 - **Route Parameter**:
   - `id`: Task ID (integer)
-
-**Example**:  
-```
-DELETE /5
-```
