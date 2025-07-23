@@ -4,8 +4,8 @@ import { createClient } from "@supabase/supabase-js";
 
 const fastify = Fastify();
 
-const supabaseUrl = "https://txysbpwypxoxfznyhsde.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR4eXNicHd5cHhveGZ6bnloc2RlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk1ODUyNTcsImV4cCI6MjA2NTE2MTI1N30.TbeeTkdSbnRQd4HaNGQ0ipUIzSHejHSi4JxsGQ-Zdn4";
+const supabaseUrl = "omittes";
+const supabaseKey = "omitted";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 type editresult = {
